@@ -3,6 +3,8 @@
 require 'offline_geocoder/version'
 require 'singleton'
 require 'monitor'
+require 'csv'
+require 'geokdtree'
 
 class OfflineGeocoder
   include Singleton
